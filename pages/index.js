@@ -4,10 +4,12 @@ import Layout from '../components/layout'
 export default function Home() {
   return (
     <>
-      <Layout>
+      <Layout
+        title={'Inicio'}
+        description={'Blog de música, venta de guitarras y más'}
+      >
         <h1>Hola Mundo en Nextjs</h1>
 
-        <Link href="/nosotros">Ir a Nosotros</Link>
       </Layout>
     </>
   )
